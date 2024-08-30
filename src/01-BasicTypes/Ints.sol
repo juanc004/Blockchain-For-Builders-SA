@@ -12,6 +12,6 @@ pragma solidity ^0.8.20;
 
 contract Ints {
     int8 public a = 15;
-    int8 public b = - 10;
+    int8 public b = -10;
     int16 public difference = a > b ? int16(a) - int16(b) : int16(b) - int16(a);
 }
